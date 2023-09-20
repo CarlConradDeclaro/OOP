@@ -1,3 +1,4 @@
+
  
  class Bicycle{
      
@@ -49,7 +50,7 @@
  
  
  
-public class Main
+public class Inheretance
 {
 
 	public static void main(String[] args) {

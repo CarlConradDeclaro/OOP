@@ -43,7 +43,7 @@
  }
  
  
-public class Main
+public class Classes
 {
 
 	public static void main(String[] args) {

@@ -1,8 +1,10 @@
+
  
   abstract class GraphObject{
      
      abstract void draw();
      abstract void resize();
+     
      
  } 
  
@@ -17,6 +19,7 @@
      void resize(){
          System.out.println("Resizing the circle");
      }
+      
  }
  
  class recatangle extends GraphObject{
@@ -38,7 +41,7 @@
  
  
  
-public class Main
+public class Abstraction
 {
 
 	public static void main(String[] args) {
