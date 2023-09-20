@@ -8,7 +8,7 @@ class TableAndChairs{
             
 
             int row = 6;
-            int column = 24;
+            int column = 32;
      
             int interval = (column/4) + 1;
             for (int i = 1; i <=row; i++) {
@@ -16,8 +16,12 @@ class TableAndChairs{
                          if(  i <3   &&    (  j <2 || j > column-1 )){
                              System.out.print("X");
                          }else if(i == 3 &&  ( (j<2 || j>interval )  && (j<column-(column/4) || j>column-1   )  )  ){
-                                  System.out.print("X");                        
-                         }else
+                                System.out.print("X");                        
+                         }else if(i == 4 && ( (j<=interval-2 )  ||  j == interval+1   ||  j == (column-(column/4))-1 || ( j >(column-(column/4))+1 )  )){
+                               System.out.print("X"); 
+                        }else if(i >= 5 && (  j<2 || j == interval-2 || j ==   )){
+
+                        }else
                             System.out.print(" ");  
                          
                   }            // 1 ,5 8
